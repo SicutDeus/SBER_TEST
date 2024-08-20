@@ -1,0 +1,38 @@
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = [
+    "E203",
+    "W503",
+]
+
+[tool.poetry]
+name = "sber-test"
+version = "0.1.0"
+description = "Deposit calculation"
+authors = ["m.prisyazhnyy"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Flask = "^3.0.3"
+marshmallow2 = "^2.20.2"
+marshmallow = "^3.21.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+flake8 = "^7.1"
+isort = "^5.13"
+coverage = "^7.6.1"
