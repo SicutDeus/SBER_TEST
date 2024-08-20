@@ -3,7 +3,6 @@ import re
 
 
 if __name__ == '__main__':
-    print('aboba1')
     if os.path.exists('htmlcov/class_index.html'):
         with open('htmlcov/class_index.html', 'r') as file:
             html_content = file.read()
@@ -13,4 +12,4 @@ if __name__ == '__main__':
         if table_match:
             table_html = table_match.group(1)
             with open('tests/README.md', 'w+') as f:
-                f.write('<table>' + table_html+ '</table>')
+                f.write('<table>' + table_html + '</table>')

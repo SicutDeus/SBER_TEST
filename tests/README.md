@@ -125,4 +125,4 @@
                 <td class="right" data-ratio="178 183">97%</td>
             </tr>
         </tfoot>
-</table>
+    </table>
