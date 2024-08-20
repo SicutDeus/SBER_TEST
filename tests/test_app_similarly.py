@@ -52,16 +52,16 @@ class DepositAPITestCase(unittest.TestCase):
             ),
         ]
 
-    # def test_successful_calculation(self):
-    #     test_data = self.default_data.copy()
-    #     expected_result = {
-    #         "31.01.2021": 10050.0,
-    #         "28.02.2021": 10100.25,
-    #         "31.03.2021": 10150.75,
-    #     }
-    #     response = self.client.post(self.endpoint, json=test_data)
-    #     self.assertEqual(response.status_code, self.success_status_code)
-    #     self.assertEqual(response.get_json(), expected_result)
+    def test_successful_calculation(self):
+        test_data = self.default_data.copy()
+        expected_result = {
+            "31.01.2021": 10050.0,
+            "28.02.2021": 10100.25,
+            "31.03.2021": 10150.75,
+        }
+        response = self.client.post(self.endpoint, json=test_data)
+        self.assertEqual(response.status_code, self.success_status_code)
+        self.assertEqual(response.get_json(), expected_result)
     #
     # def test_invalid_inputs(self):
     #     for update, expected_msg in self.invalid_cases:
