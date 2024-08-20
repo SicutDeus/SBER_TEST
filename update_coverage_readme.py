@@ -3,8 +3,9 @@ import re
 
 
 if __name__ == '__main__':
-    if os.path.exists('htmlconv/class_index.html'):
-        with open('htmlconv/class_index.html', 'r') as file:
+    print('aboba1')
+    if os.path.exists('htmlcov/class_index.html'):
+        with open('htmlcov/class_index.html', 'r') as file:
             html_content = file.read()
         table_regex = re.compile(r'<table.*?>(.*?)</table>', re.DOTALL)
         table_match = table_regex.search(html_content)

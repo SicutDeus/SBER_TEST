@@ -16,6 +16,8 @@ test:
 update_cov:
 	coverage run -m unittest discover -s tests
 	coverage report
+	coverage html
+	python -m update_coverage_readme
 
 tests_folder_check:
 	black ${TESTS_DIR}
