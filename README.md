@@ -1,5 +1,4 @@
-![CI](https://img.shields.io/github/workflow/status/OSicutDeus/SBER_TEST/CI)
-# Калькулятор депозита
+[![CI](https://github.com/SicutDeus/SBER_TEST/actions/workflows/ci.yml/badge.svg)](https://github.com/SicutDeus/SBER_TEST/actions/workflows/ci.yml)# Калькулятор депозита
 ## Описание
 
 Этот сервис представляет собой REST API на Flask для расчета суммы вклада по месячным периодам.
