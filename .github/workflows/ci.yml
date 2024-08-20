@@ -19,7 +19,6 @@ jobs:
         python-version: '3.12'
 
     - name: Install Poetry
-      uses: python-poetry/poetry-action@v3
       run: |
         pip install poetry
 
