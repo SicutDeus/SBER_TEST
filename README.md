@@ -107,5 +107,6 @@ coverage run -m unittest discover -s tests
 ```
 coverage report
 ```
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqFKUAfCZsgf3lb849Hw5D_U4G_4mapvtVTQ&s)
+
+![](https://www.meme-arsenal.com/memes/304e76637da95d6b818ff0a27b9282e6.jpg)
 
