@@ -20,8 +20,8 @@ jobs:
 
     - name: Install Poetry
       uses: python-poetry/poetry-action@v3
-      with:
-        poetry-version: '1.8.0'
+      run: |
+        pip install poetry
 
     - name: Install dependencies
       run: |
