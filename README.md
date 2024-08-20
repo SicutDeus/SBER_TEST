@@ -103,7 +103,7 @@ python -m unittest discover -s tests
 ```
 coverage run -m unittest discover -s tests
 ```
-Просмотр репорта о покрытии тестами:
+Просмотр репорта о покрытии тестами (в папке tests на гите есть ридми с таблицей о покрытии):
 ```
 coverage report
 ```
