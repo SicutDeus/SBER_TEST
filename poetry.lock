@@ -333,23 +333,6 @@ docs = ["alabaster (==0.7.16)", "autodocsumm (==0.2.12)", "sphinx (==7.3.7)", "s
 tests = ["pytest", "pytz", "simplejson"]
 
 [[package]]
-name = "marshmallow2"
-version = "2.20.2"
-description = "A lightweight library for converting complex datatypes to and from native Python datatypes."
-optional = false
-python-versions = "*"
-files = [
-    {file = "marshmallow2-2.20.2-py2.py3-none-any.whl", hash = "sha256:879eaf7f607113ddcbf46e856873c7fdcea08ba14783f86953f2c8ad76c182c9"},
-]
-
-[package.extras]
-dev = ["flake8 (==3.7.4)", "pytest", "python-dateutil", "pytz", "simplejson", "tox"]
-docs = ["alabaster (==0.7.12)", "sphinx (==2.1.2)", "sphinx-issues (==1.2.0)", "sphinx-version-warning (==1.1.2)"]
-lint = ["flake8 (==3.7.4)"]
-reco = ["python-dateutil", "simplejson"]
-tests = ["pytest", "pytz"]
-
-[[package]]
 name = "mccabe"
 version = "0.7.0"
 description = "McCabe checker, plugin for flake8"
@@ -451,4 +434,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "637f7b919d2c68fed932c1c1ad5bcfe08b8c68cdfb0dd6a7aaf622fc23ab9c7e"
+content-hash = "e50c85163c77ebf8cfb0cabd4a0325d367cd74d33044a48006c59730fee1e452"
