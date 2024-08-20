@@ -62,18 +62,18 @@ class DepositAPITestCase(unittest.TestCase):
         response = self.client.post(self.endpoint, json=test_data)
         self.assertEqual(response.status_code, self.success_status_code)
         self.assertEqual(response.get_json(), expected_result)
-    #
-    # def test_invalid_inputs(self):
-    #     for update, expected_msg in self.invalid_cases:
-    #         with self.subTest(update=update):
-    #             test_data = self.default_data.copy()
-    #             test_data.update(update)
-    #             self.check_bad_request(test_data, expected_msg)
-    #
-    # def check_bad_request(self, test_data, expected_msg):
-    #     response = self.client.post(self.endpoint, json=test_data)
-    #     self.assertEqual(response.status_code, self.error_status_code)
-    #     self.assertEqual(response.get_json()["error"], expected_msg)
+
+    def test_invalid_inputs(self):
+        for update, expected_msg in self.invalid_cases:
+            with self.subTest(update=update):
+                test_data = self.default_data.copy()
+                test_data.update(update)
+                self.check_bad_request(test_data, expected_msg)
+
+    def check_bad_request(self, test_data, expected_msg):
+        response = self.client.post(self.endpoint, json=test_data)
+        self.assertEqual(response.status_code, self.error_status_code)
+        self.assertEqual(response.get_json()["error"], expected_msg)
 
 
 if __name__ == "__main__":
