@@ -26,6 +26,14 @@ jobs:
       run: |
         poetry install --no-root
 
-    - name: Run linters and test
+    - name: Run linters
       run: |
-        make all
+              poetry run black app/
+              poetry run isort app/
+              poetry run flake8 app/
+
+    - name: Run tests
+      run: |
+        python -m unittest discover -s ${TESTS_DIR}
+        coverage run -m unittest discover -s tests
+        coverage report
