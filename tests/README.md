@@ -46,9 +46,9 @@
                 <td class="name left"><a href="z_5f5a17c013354698_routes_py.html">app/routes.py</a></td>
                 <td class="name left"><a href="z_5f5a17c013354698_routes_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
                 <td>17</td>
-                <td>3</td>
+                <td>2</td>
                 <td>0</td>
-                <td class="right" data-ratio="14 17">82%</td>
+                <td class="right" data-ratio="15 17">88%</td>
             </tr>
             <tr class="region">
                 <td class="name left"><a href="z_5f5a17c013354698_utils_py.html">app/utils.py</a></td>
@@ -62,9 +62,9 @@
                 <td class="name left"><a href="z_5f5a17c013354698_validation_py.html#t20">app/validation.py</a></td>
                 <td class="name left"><a href="z_5f5a17c013354698_validation_py.html#t20"><data value='DepositRequestSchema'>DepositRequestSchema</data></a></td>
                 <td>12</td>
-                <td>4</td>
                 <td>0</td>
-                <td class="right" data-ratio="8 12">67%</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 12">100%</td>
             </tr>
             <tr class="region">
                 <td class="name left"><a href="z_5f5a17c013354698_validation_py.html#t55">app/validation.py</a></td>
@@ -85,44 +85,44 @@
             <tr class="region">
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_py.html#t6">tests/test_app.py</a></td>
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_py.html#t6"><data value='DepositAPITestCase'>DepositAPITestCase</data></a></td>
-                <td>6</td>
-                <td>6</td>
+                <td>38</td>
                 <td>0</td>
-                <td class="right" data-ratio="0 6">0%</td>
+                <td>0</td>
+                <td class="right" data-ratio="38 38">100%</td>
             </tr>
             <tr class="region">
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_py.html">tests/test_app.py</a></td>
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
-                <td>6</td>
+                <td>16</td>
                 <td>1</td>
                 <td>0</td>
-                <td class="right" data-ratio="5 6">83%</td>
+                <td class="right" data-ratio="15 16">94%</td>
             </tr>
             <tr class="region">
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_similarly_py.html#t6">tests/test_app_similarly.py</a></td>
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_similarly_py.html#t6"><data value='DepositAPITestCase'>DepositAPITestCase</data></a></td>
-                <td>13</td>
+                <td>21</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="13 13">100%</td>
+                <td class="right" data-ratio="21 21">100%</td>
             </tr>
             <tr class="region">
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_similarly_py.html">tests/test_app_similarly.py</a></td>
                 <td class="name left"><a href="z_a44f0ac069e85531_test_app_similarly_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
-                <td>7</td>
+                <td>9</td>
                 <td>1</td>
                 <td>0</td>
-                <td class="right" data-ratio="6 7">86%</td>
+                <td class="right" data-ratio="8 9">89%</td>
             </tr>
         </tbody>
         <tfoot>
             <tr class="total">
                 <td class="name left">Total</td>
                 <td class="name left">&nbsp;</td>
-                <td>131</td>
-                <td>16</td>
+                <td>183</td>
+                <td>5</td>
                 <td>0</td>
-                <td class="right" data-ratio="115 131">88%</td>
+                <td class="right" data-ratio="178 183">97%</td>
             </tr>
         </tfoot>
     </table>
