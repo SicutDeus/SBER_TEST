@@ -43,3 +43,4 @@ ERROR_MESSAGES: Dict[str, str] = {
     "invalid_type": "Неверный тип поля %s: ожидался %s, был получен %s",
     "required_field": "Поле %s обязательное. ",
 }
+
