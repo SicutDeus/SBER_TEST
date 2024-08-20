@@ -1,4 +1,4 @@
-
+<table>
         <thead>
             <tr class="tablehead" title="Click to sort">
                 <th id="file" class="name left" aria-sort="none" data-shortcut="f">File<span class="arrows"></span></th>
@@ -125,4 +125,4 @@
                 <td class="right" data-ratio="178 183">97%</td>
             </tr>
         </tfoot>
-    
+</table>

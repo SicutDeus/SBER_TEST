@@ -13,4 +13,4 @@ if __name__ == '__main__':
         if table_match:
             table_html = table_match.group(1)
             with open('tests/README.md', 'w+') as f:
-                f.write(table_html)
+                f.write('<table>' + table_html+ '</table>')
