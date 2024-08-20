@@ -37,3 +37,6 @@ jobs:
         poetry run python -m unittest discover -s tests
         poetry run coverage run -m unittest discover -s tests
         poetry run coverage report
+
+    - name: Generate README
+      run: python tests/update_coverage_readme.py
