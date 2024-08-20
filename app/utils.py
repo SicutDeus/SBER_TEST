@@ -55,7 +55,11 @@ def calculate_deposit(
 
     for _ in range(periods):
         current_amount += current_amount * rate / MONTHS_IN_YEAR / FROM_PERCENT_COEF
-        result[current_date.strftime(DATE_FORMAT)] = round(current_amount, 2)
+        result[current_date.strftime(DATE_FORMAT)] = (
+            int(current_amount)
+            if current_amount.is_integer()
+            else round(current_amount, 2)
+        )
         current_date = get_last_day_of_next_month(current_date)
 
     return result
