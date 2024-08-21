@@ -10,7 +10,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone <your-repository-url>
+   git clone git@github.com:SicutDeus/SBER_TEST.git
    cd deposit_calculator
    ```
 2. Создайте и активируйте виртуальное окружение:
