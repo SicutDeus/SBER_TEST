@@ -108,5 +108,7 @@ coverage run -m unittest discover -s tests
 coverage report
 ```
 
+### P.S. файл update_coverage_readme.py обновляет таблицу readme в папке tests/ во время выполнения makefile и в пре-коммит хуке. Можно было интегрировать со сторонним сервисом, но он использует pytest, а тесты были уже написаны :)
+
 ![](https://www.meme-arsenal.com/memes/304e76637da95d6b818ff0a27b9282e6.jpg)
 
