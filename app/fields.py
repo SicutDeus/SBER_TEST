@@ -46,7 +46,7 @@ def get_date_field(
     field_type: Type[fields.Field], description: str, field_name: str
 ) -> fields.Field:
     """
-    Создает поле для даты для схемы Marshmallow
+    Создает поле даты для схемы Marshmallow
     с определенным форматом и сообщениями об ошибках.
 
     Args:
