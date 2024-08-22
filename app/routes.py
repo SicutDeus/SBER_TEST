@@ -7,6 +7,7 @@ from app.config import BASE_ERROR_STATUS_CODE, BASE_SUCCESS_STRATUS_CODE
 from app.response import get_unsorted_json_response
 from app.utils import calculate_deposit
 from app.validation import DepositRequestSchema
+
 deposit_api = Blueprint("deposit_api", __name__)
 
 

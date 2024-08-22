@@ -13,10 +13,10 @@
             <tr class="region">
                 <td class="name left"><a href="z_5f5a17c013354698___init___py.html">app/__init__.py</a></td>
                 <td class="name left"><a href="z_5f5a17c013354698___init___py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
-                <td>6</td>
+                <td>8</td>
                 <td>0</td>
                 <td>0</td>
-                <td class="right" data-ratio="6 6">100%</td>
+                <td class="right" data-ratio="8 8">100%</td>
             </tr>
             <tr class="region">
                 <td class="name left"><a href="z_5f5a17c013354698_config_py.html">app/config.py</a></td>
@@ -45,10 +45,10 @@
             <tr class="region">
                 <td class="name left"><a href="z_5f5a17c013354698_routes_py.html">app/routes.py</a></td>
                 <td class="name left"><a href="z_5f5a17c013354698_routes_py.html"><data value=''><span class='no-noun'>(no class)</span></data></a></td>
-                <td>17</td>
+                <td>19</td>
                 <td>2</td>
                 <td>0</td>
-                <td class="right" data-ratio="15 17">88%</td>
+                <td class="right" data-ratio="17 19">89%</td>
             </tr>
             <tr class="region">
                 <td class="name left"><a href="z_5f5a17c013354698_utils_py.html">app/utils.py</a></td>
@@ -119,10 +119,10 @@
             <tr class="total">
                 <td class="name left">Total</td>
                 <td class="name left">&nbsp;</td>
-                <td>183</td>
+                <td>187</td>
                 <td>5</td>
                 <td>0</td>
-                <td class="right" data-ratio="178 183">97%</td>
+                <td class="right" data-ratio="182 187">97%</td>
             </tr>
         </tfoot>
     </table>
