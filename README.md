@@ -11,7 +11,7 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone git@github.com:SicutDeus/SBER_TEST.git
-   cd deposit_calculator
+   cd SBER_TEST
    ```
 2. Создайте и активируйте виртуальное окружение:
     ```
@@ -28,18 +28,23 @@
    ```
 
 ### Запуск с использованием Docker
-1. Постройте Docker-образ:
+1. Клонируйте репозиторий:
+   ```bash
+   git clone git@github.com:SicutDeus/SBER_TEST.git
+   cd SBER_TEST
+   ```
+2. Постройте Docker-образ:
    ```bash
    docker build -t deposit-calculator .
    ```
-2. Запустите контейнер:
+3. Запустите контейнер:
     ```
    docker run -d -p 5000:5000 deposit-calculator
    ```
 #### Приложение будет доступно по адресу http://127.0.0.1:5000.
 
 ## Пример запроса
-Для расчета суммы вклада выполните POST-запрос по следующему URL: `/calculate`
+Для расчета суммы вклада выполните POST-запрос по следующему эндпоинту: `http://127.0.0.1:5000/calculate`
 
 #### Пример тела запроса:
 ```
